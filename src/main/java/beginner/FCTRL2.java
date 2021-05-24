@@ -23,7 +23,7 @@ public class FCTRL2 {
 	
 	public static String factorial(String n) {
 		
-		BigInteger big = new BigInteger(n);
+		BigInteger big = new BigInteger(n);	
 		
 		BigInteger fact = new BigInteger(n);
 
