@@ -25,7 +25,8 @@ public class TSORT {
 
 		Arrays.sort(arr);
 		
-		System.out.printf("%s%n", Arrays.toString(arr));
+		for(int a:arr)
+			System.out.println(a);
 	}
 
 }
