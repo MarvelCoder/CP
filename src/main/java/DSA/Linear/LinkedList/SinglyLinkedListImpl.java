@@ -1,4 +1,4 @@
-package DSA;
+package DSA.Linear.LinkedList;
 
 public class SinglyLinkedListImpl {
 	
