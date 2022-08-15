@@ -1,4 +1,4 @@
-package DSA.Linear.LinkedList;
+package DSA.Linear.SinglyLinkedList;
 
 public class Insertion<T> {
 
