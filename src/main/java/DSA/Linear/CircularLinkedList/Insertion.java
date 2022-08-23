@@ -1,15 +1,13 @@
 package DSA.Linear.CircularLinkedList;
 
-import DSA.Linear.SinglyLinkedList.Node;
-
 public class Insertion<T> {
 
-		Node<T> head = null;
-		Node<T> tail = null;
+		LNode<T> head = null;
+		LNode<T> tail = null;
 	
 	public void addInBeginning(T data) {
 				
-		Node<T> node = new Node<>(data);
+		LNode<T> node = new LNode<>(data);
 	
 		if(head == null) {
 			head = node;
@@ -24,7 +22,7 @@ public class Insertion<T> {
 	
 	public void addInEnd(T data) {
 		
-		Node<T> node = new Node<>(data);
+		LNode<T> node = new LNode<>(data);
 		
 		tail.next = node;
 		tail = node;
@@ -34,9 +32,9 @@ public class Insertion<T> {
 	
 	public void addAtPosition(int index, T data) {
 		
-		Node<T> node = new Node<>(data);
+		LNode<T> node = new LNode<>(data);
 		
-		Node<T> ptr = head;
+		LNode<T> ptr = head;
 		
 		for(int i = 0;i<index-2;i++) {
 			ptr = ptr.next;
@@ -48,7 +46,7 @@ public class Insertion<T> {
 	
 	public void display() {
 		
-		Node<T> ptr = head;
+		LNode<T> ptr = head;
 		
 		do {
 			System.out.print(ptr.data+"->");

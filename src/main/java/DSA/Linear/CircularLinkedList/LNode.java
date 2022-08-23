@@ -1,11 +1,11 @@
 package DSA.Linear.CircularLinkedList;
 
-public class Node<T> {
+public class LNode<T> {
 
 	public T data;
-	public Node<T> next = null;
+	public LNode<T> next = null;
 	
-	public Node(T data){
+	public LNode(T data){
 		this.data = data;
 	}
 	
