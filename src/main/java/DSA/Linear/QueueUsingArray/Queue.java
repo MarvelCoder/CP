@@ -10,7 +10,7 @@ public class Queue {
 	public void enqueue(int data) {
 		
 		if(rear == arr.length-1) {
-			System.out.println("Overflow");
+			System.out.println("Queue Overflow");
 		}else {
 			if(front == -1 && rear == -1) {
 				arr[0] = data;
@@ -25,7 +25,7 @@ public class Queue {
 	public void dequeue() {
 		
 		if(front == -1) {
-			System.out.println("Underflow");
+			System.out.println("Queue Underflow");
 		}else {
 			front++;
 		}
