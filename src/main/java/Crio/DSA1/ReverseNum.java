@@ -12,10 +12,11 @@ public class ReverseNum {
         int reverse = reverseNum(num);
 
         System.out.println(reverse);
+        sc.close();
 
     }
 
-    // TODO: Implement this method
+
     static int reverseNum(int num) {
 
        //Take out each digit starting from lsb to msb
